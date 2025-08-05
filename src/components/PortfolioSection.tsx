@@ -6,7 +6,7 @@ const PortfolioSection = () => {
     <section id="portfolio" className="py-20 bg-gradient-section">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">OUR WORKS</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">OUR PROJECTS</h2>
           <div className="w-24 h-1 bg-gradient-primary mx-auto mb-6"></div>
           <p className="text-xl text-muted-foreground">
             What we are proud of
@@ -18,7 +18,7 @@ const PortfolioSection = () => {
             <CardContent className="p-8">
               <div className="flex items-start space-x-4">
                 <div className="w-16 h-16 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0 group-hover:shadow-glow transition-all duration-300">
-                  <span className="text-white font-bold text-xl">Q</span>
+                  <span className="text-white font-bold text-xl"><img src="/quiktrade.png" alt="Q" /></span>
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-4">Quiktrade</h3>
@@ -41,7 +41,7 @@ const PortfolioSection = () => {
             <CardContent className="p-8">
               <div className="flex items-start space-x-4">
                 <div className="w-16 h-16 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0 group-hover:shadow-glow transition-all duration-300">
-                  <FileText className="text-white" size={24} />
+                  <img src="/dms.png" alt="ESS" />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-4">Digital Document Management System</h3>
@@ -66,7 +66,7 @@ const PortfolioSection = () => {
             <CardContent className="p-8">
               <div className="flex items-start space-x-4">
                 <div className="w-16 h-16 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0 group-hover:shadow-glow transition-all duration-300">
-                  <GraduationCap className="text-white" size={24} />
+                  <img src="/engifunda.png" alt="ENG" />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-4">Engifunda.com</h3>

@@ -65,7 +65,7 @@ const InternshipSection = () => {
                   Duration:
                 </h3>
                 <p className="text-blue-100">
-                  8 weeks (2 months) of structured learning and guided project work.
+                 2 months or 6 months of structured learning and guided project work.
                 </p>
               </CardContent>
             </Card>
@@ -77,8 +77,7 @@ const InternshipSection = () => {
                   Ideal For:
                 </h3>
                 <ul className="space-y-2 text-blue-100">
-                  <li>• Final-year students in BCA, B.Sc. IT, B.Tech, MCA, or similar disciplines.</li>
-                  <li>• Beginners looking to transition into software development careers.</li>
+                  <li>Who are looking to transition into software development careers.</li>
                 </ul>
               </CardContent>
             </Card>
