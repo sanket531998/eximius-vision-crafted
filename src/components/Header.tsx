@@ -20,7 +20,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-primary rounded-md flex items-center justify-center">
-              <span className="text-white font-bold text-sm">E</span>
+              <span className="text-white font-bold text-sm">
+<img src="/ess_logo.png" alt="ESS" />
+              </span>
             </div>
             <div>
               <h1 className="text-lg font-bold text-primary-foreground">

@@ -39,7 +39,7 @@ ${formData.message}
       `.trim();
 
       // Create mailto link
-      const mailtoLink = `mailto:shubhangi.raghute@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(emailBody)}`;
+      const mailtoLink = `mailto:admin@eximiussoftware.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(emailBody)}`;
       
       // Open email client
       window.location.href = mailtoLink;
@@ -90,7 +90,7 @@ ${formData.message}
                 </div>
                 <div className="text-white">
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <p className="text-blue-200">shubhangi.raghute@gmail.com</p>
+                  <p className="text-blue-200">admin@eximiussoftware.com</p>
                 </div>
               </div>
 
@@ -100,7 +100,7 @@ ${formData.message}
                 </div>
                 <div className="text-white">
                   <h4 className="font-semibold mb-1">Office</h4>
-                  <p className="text-blue-200">Eximius Software Solutions</p>
+                  <p className="text-blue-200">Eximius Software Solutions <br/> L-8/15, Beside Sarang Car Bazar, Raghujinagar <br/>Nagpur - 440024, Maharashtra</p>
                 </div>
               </div>
 

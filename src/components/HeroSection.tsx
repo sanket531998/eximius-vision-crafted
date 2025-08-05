@@ -10,7 +10,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center bg-gradient-hero">
+    <section id="home" className="min-h-screen flex items-center bg-gradient-hero pt-24">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -35,8 +35,7 @@ const HeroSection = () => {
             </Button>
             <Button 
               size="lg" 
-              variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-primary"
+               className="bg-white text-primary hover:bg-white/90 shadow-glow"
               onClick={() => scrollToSection('contact')}
             >
               Get In Touch
