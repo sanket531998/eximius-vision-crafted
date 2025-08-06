@@ -5,12 +5,15 @@ const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center bg-gradient-hero pt-24">
+    <section
+      id="home"
+      className="min-h-screen flex items-center bg-gradient-hero pt-24"
+    >
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -20,25 +23,27 @@ const HeroSection = () => {
             Beyond the ordinary...
           </p>
           <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto leading-relaxed">
-            We transform ideas into powerful digital solutions. From innovative web applications 
-            to cutting-edge software development, we're your trusted partner in digital excellence.
+            We transform ideas into powerful digital solutions. From innovative
+            web applications to cutting-edge software development, we're your
+            trusted partner in digital excellence.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-white text-primary hover:bg-white/90 shadow-glow"
-              onClick={() => scrollToSection('services')}
+              onClick={() => scrollToSection("services")}
             >
               Explore Our Services
               <ArrowRight className="ml-2" size={20} />
             </Button>
-            <Button 
-              size="lg" 
-               className="bg-white text-primary hover:bg-white/90 shadow-glow"
-              onClick={() => scrollToSection('contact')}
+            <Button
+              size="lg"
+              className="bg-white text-primary hover:bg-white/90 shadow-glow"
+              onClick={() => scrollToSection("contact")}
             >
               Get In Touch
+              <ArrowRight className="ml-2" size={20} />
             </Button>
           </div>
 
@@ -49,21 +54,27 @@ const HeroSection = () => {
                 <Code className="text-white" size={24} />
               </div>
               <h3 className="text-xl font-semibold mb-2">Custom Development</h3>
-              <p className="text-blue-200">Tailored solutions for your unique business needs</p>
+              <p className="text-blue-200">
+                Tailored solutions for your unique business needs
+              </p>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4">
                 <Globe className="text-white" size={24} />
               </div>
               <h3 className="text-xl font-semibold mb-2">Web Excellence</h3>
-              <p className="text-blue-200">Modern, responsive websites that drive results</p>
+              <p className="text-blue-200">
+                Modern, responsive websites that drive results
+              </p>
             </div>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mb-4">
                 <Lightbulb className="text-white" size={24} />
               </div>
               <h3 className="text-xl font-semibold mb-2">Innovation</h3>
-              <p className="text-blue-200">Cutting-edge solutions using latest technologies</p>
+              <p className="text-blue-200">
+                Cutting-edge solutions using latest technologies
+              </p>
             </div>
           </div>
         </div>
